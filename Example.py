@@ -112,8 +112,8 @@ print(len(portfolio))
 BasicSellAlgo()
 BasicBuyAlgo(20)
 b = account.portfolio_value
-c = b - a
+#c = b - a
 print("after: " + account.portfolio_value)
 print(len(portfolio))
-print("profits: " + c)
+#print("profits: " + c)
 
