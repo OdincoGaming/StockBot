@@ -69,15 +69,6 @@ c = 0
 count = 99
 usableList = []
 
-#for asset in nasdaq_assets:
-#    if c < count:
-#        if i > 49:
-#            time.sleep(20)
-#            i = 0
-#        GetData(asset.symbol)
-#    i += 1
-#    c += 1
-
 #have to make sure the API returned enough information, not all stocks have 20 years worth of data
 path = os.getcwd() + "\\data\\csv"  
 for csv_file_path in list(filter(lambda x: x.endswith('.csv'), os.listdir(path))):
