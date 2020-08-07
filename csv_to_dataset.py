@@ -5,8 +5,6 @@ from keras.callbacks import ModelCheckpoint
 from keras.layers import Dense, Dropout, LSTM, Input, Activation, concatenate
 from keras import optimizers
 import numpy as np
-#np.random.seed(4)
-#tf.random.set_seed(4)
 from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
