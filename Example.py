@@ -106,14 +106,10 @@ active_assets = api.list_assets(status='active')
 nasdaq_assets = [a for a in active_assets if a.exchange == 'NASDAQ']
 portfolio = api.list_positions()
 
-a = account.portfolio_value
 print("before: " + a)
 print(len(portfolio))
 BasicSellAlgo()
 BasicBuyAlgo(20)
-b = account.portfolio_value
-#c = b - a
 print("after: " + account.portfolio_value)
 print(len(portfolio))
-#print("profits: " + c)
 
