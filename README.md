@@ -1,9 +1,10 @@
 # StockBot
 Let's learn about stocks!
 
-Will update this later, I set all this up in like an hour lol 
-check your personal readme for now! also, feel free to check out the other readme! both contain great links. 
-ill get everything organized as I get the project completely set up.
+A stock trading bot that uses the Alpaca API to buy and sell stocks. 
+It decides what to buy and sell using a Neural Network trained on 20 years worth of minute by minute data on over 2000 companies available on NASDAQ. 
+I learned that prices aren't enough. 
+To be truly succesful overtime it would require sentiment analysis, forum scraping, the ability to watch the news, and a slew of other features. However, this was my first Neural Network written completely from scratch and was a wonderful and infuriating learning experience.
 
 
 USAGE : 
